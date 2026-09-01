@@ -11,6 +11,18 @@ lingkungan Windows + Laragon, beserta penyebab akar dan solusi yang sudah terbuk
 | [notes/laragon-windows.md](notes/laragon-windows.md) | Laragon: port non-standar, vhost, MySQL 8.4 manual |
 | [notes/codeigniter4-pitfalls.md](notes/codeigniter4-pitfalls.md) | Jebakan Model/Entity CI4 yang gagal tanpa pesan error |
 | [notes/laravel-migrations.md](notes/laravel-migrations.md) | Migration nyangkut, enum semester, academic_year turunan |
+| [notes/gh-cli-windows.md](notes/gh-cli-windows.md) | gh CLI: device flow, PATH winget, Discussions via GraphQL |
+
+## Skrip
+
+| Berkas | Kegunaan |
+|---|---|
+| [scripts/cek-port.sh](scripts/cek-port.sh) | Cari proses yang menahan sebuah port di Windows |
+
+```bash
+./scripts/cek-port.sh 80 443 1103 3306
+```
+
 
 ## Kenapa repo ini ada
 
